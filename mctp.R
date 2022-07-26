@@ -1,5 +1,7 @@
 library(nparcomp)
 library(dplyr)
+library(splitstackshape)
+library(MASS)
 ?mctp
 
 read.exontable<-function(sample.type=""){
@@ -26,8 +28,16 @@ read.exontable<-function(sample.type=""){
   
   df<-bind_rows(df.l)
   df$type<-factor(df$type)
-  
+  df<-expandRows(df,"coverage")
   return(df)
+}
+
+filter.df<-function(df){
+  df[df$n_ex>=3,]
+}
+
+odds<-function(p1,p2){
+  (p1/(1-p1))/(p2/(1-p2))
 }
 
 ### TESTING FOR ALL THE SAMPLES TOGETHER
@@ -39,6 +49,7 @@ colnames(ensemble)
 ensemble.test<-mctp(n_ex_d~type,data=ensemble)
 summary(ensemble.test)
 plot(ensemble.test)
+
 
 ### TESTING FOR CELL LINES ONLY
 
@@ -77,3 +88,26 @@ in.vitro.test<-mctp(n_ex_d~type,data=in.vitro)
 
 summary(in.vitro.test)
 plot(in.vitro.test)
+
+
+# TEST AFTER FILTERING out transcript with less than 3 exons
+
+ensemble.filtered<-filter.df(ensemble)
+ensemble.filtered.test<-mctp(n_ex_d~type,data=ensemble.filtered)
+summary(ensemble.filtered.test)
+plot(ensemble.filtered.test)
+
+1-0.4653252
+
+# the effect is not so big
+
+norm.pos.test<-mctp(norm_pos~type,data=ensemble.filtered)
+
+summary(norm.pos.test)
+plot(norm.pos.test)
+
+log2(((0.5621490)/(1-0.5621490))/((0.4770922)/(1-0.4770922)))
+
+fractions(round(odds(0.5621490,0.4770922),2))
+
+log2(odds(0.5621490,0.4770922))
