@@ -2,6 +2,7 @@ library(nparcomp)
 library(dplyr)
 library(splitstackshape)
 library(MASS)
+library(ggplot2)
 ?mctp
 
 read.exontable<-function(sample.type=""){
@@ -96,6 +97,23 @@ ensemble.filtered<-filter.df(ensemble)
 ensemble.filtered.test<-mctp(n_ex_d~type,data=ensemble.filtered)
 summary(ensemble.filtered.test)
 plot(ensemble.filtered.test)
+
+# test log 2 nu/nd
+
+ensemble.filtered$ud<-(ensemble.filtered$n_ex_u+1)/(ensemble.filtered$n_ex_d+1)
+
+ud.test<-mctp(ud~type,data=ensemble.filtered)
+summary(ud.test)
+plot(ud.test)
+
+ud.test$Data.Info
+     
+ggplot(data=ensemble.filtered,aes(x=log2(ud),fill=type))+
+  geom_density(alpha=0.6,bw=0.16)+
+  facet_grid(type~.)
+
+ggplot(data=ensemble.filtered,aes(x=log2(ud),fill=type))+
+  geom_density(alpha=0.6,bw=0.16)
 
 1-0.4653252
 
