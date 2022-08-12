@@ -107,6 +107,10 @@ summary(ud.test)
 plot(ud.test)
 
 ud.test$Data.Info
+
+log2(odds(0.5662993,0.4707851)) # IR,ES
+log2(odds(0.5662993,0.4408684)) # IR,5AS
+log2(odds(0.5662993,0.5220473)) # IR,3AS
      
 ggplot(data=ensemble.filtered,aes(x=log2(ud),fill=type))+
   geom_density(alpha=0.6,bw=0.16)+
@@ -129,3 +133,5 @@ log2(((0.5621490)/(1-0.5621490))/((0.4770922)/(1-0.4770922)))
 fractions(round(odds(0.5621490,0.4770922),2))
 
 log2(odds(0.5621490,0.4770922))
+
+odds(0.56)
