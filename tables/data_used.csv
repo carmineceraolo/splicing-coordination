@@ -1,87 +1,87 @@
 File accession,Biosample term name,Biosample type
-ENCFF168AZV,endodermal cell,in vitro differentiated cells
-ENCFF362CPC,endodermal cell,in vitro differentiated cells
-ENCFF940WVU,endodermal cell,in vitro differentiated cells
-ENCFF840OVC,Right ventricle myocardium superior,tissue
-ENCFF866EVJ,WTC11,cell line
-ENCFF041RNG,WTC11,cell line
-ENCFF586RUA,WTC11,cell line
-ENCFF626QRV,cardiac septum,tissue
-ENCFF291EKY,right cardiac atrium,tissue
-ENCFF099TJN,aorta,tissue
-ENCFF850YMO,left ventricle myocardium superior,tissue
+ENCFF044LIA,PC-3,cell line
+ENCFF322UJU,K562,cell line
+ENCFF018PZX,heart right ventricle,tissue
+ENCFF219UJG,GM12878,cell line
+ENCFF693YCD,posterior vena cava,tissue
+ENCFF171AQO,mucosa of descending colon,tissue
 ENCFF661OEY,K562,cell line
 ENCFF645UVN,K562,cell line
 ENCFF118JEI,MCF-7,cell line
-ENCFF044LIA,PC-3,cell line
-ENCFF322UJU,K562,cell line
 ENCFF660UTF,heart right ventricle,tissue
-ENCFF767KXS,lower lobe of right lung,tissue
-ENCFF018PZX,heart right ventricle,tissue
-ENCFF613SDS,right cardiac atrium,tissue
-ENCFF207FUA,H1,cell line
-ENCFF217ERK,H1,cell line
-ENCFF730QOA,H1,cell line
-ENCFF984RMR,ovary,tissue
-ENCFF219UJG,GM12878,cell line
+ENCFF168AZV,endodermal cell,in vitro differentiated cells
+ENCFF362CPC,endodermal cell,in vitro differentiated cells
+ENCFF940WVU,endodermal cell,in vitro differentiated cells
 ENCFF545PJV,IMR-90,cell line
-ENCFF439BVT,chondrocyte,in vitro differentiated cells
-ENCFF545CXA,chondrocyte,in vitro differentiated cells
-ENCFF469ATL,chondrocyte,in vitro differentiated cells
-ENCFF213XDA,H1,cell line
-ENCFF281VKZ,H1,cell line
-ENCFF250BDM,H1,cell line
-ENCFF693YCD,posterior vena cava,tissue
-ENCFF171AQO,mucosa of descending colon,tissue
-ENCFF319FBW,astrocyte,in vitro differentiated cells
-ENCFF992ZVE,astrocyte,in vitro differentiated cells
-ENCFF791WUV,adrenal gland,tissue
-ENCFF875QHC,right cardiac atrium,tissue
-ENCFF886FZQ,left colon,tissue
-ENCFF698UNA,psoas muscle,tissue
-ENCFF373TKM,WTC11,cell line
-ENCFF985LGZ,WTC11,cell line
-ENCFF388HXU,WTC11,cell line
-ENCFF449MVA,upper lobe of right lung,tissue
+ENCFF924HBV,lower lobe of left lung,tissue
+ENCFF840OVC,Right ventricle myocardium superior,tissue
+ENCFF613SDS,right cardiac atrium,tissue
+ENCFF984RMR,ovary,tissue
 ENCFF903XBV,mammary epithelial cell,primary cell
 ENCFF349CHO,mammary epithelial cell,primary cell
-ENCFF623IBV,heart left ventricle,tissue
-ENCFF193WEX,psoas muscle,tissue
-ENCFF239CWJ,kidney,tissue
+ENCFF319FBW,astrocyte,in vitro differentiated cells
+ENCFF992ZVE,astrocyte,in vitro differentiated cells
 ENCFF132YCF,left ventricle myocardium inferior,tissue
 ENCFF173JOL,Right ventricle myocardium inferior,tissue
-ENCFF924HBV,lower lobe of left lung,tissue
-ENCFF814ABW,HepG2,cell line
 ENCFF400LRT,HCT116,cell line
+ENCFF814ABW,HepG2,cell line
+ENCFF886FZQ,left colon,tissue
+ENCFF850YMO,left ventricle myocardium superior,tissue
 ENCFF211JEP,endodermal cell,in vitro differentiated cells
 ENCFF925PCV,endodermal cell,in vitro differentiated cells
 ENCFF830FDH,endodermal cell,in vitro differentiated cells
+ENCFF099TJN,aorta,tissue
+ENCFF626QRV,cardiac septum,tissue
+ENCFF767KXS,lower lobe of right lung,tissue
+ENCFF875QHC,right cardiac atrium,tissue
+ENCFF866EVJ,WTC11,cell line
+ENCFF041RNG,WTC11,cell line
+ENCFF586RUA,WTC11,cell line
+ENCFF373TKM,WTC11,cell line
+ENCFF985LGZ,WTC11,cell line
+ENCFF388HXU,WTC11,cell line
+ENCFF213XDA,H1,cell line
+ENCFF281VKZ,H1,cell line
+ENCFF250BDM,H1,cell line
+ENCFF439BVT,chondrocyte,in vitro differentiated cells
+ENCFF545CXA,chondrocyte,in vitro differentiated cells
+ENCFF469ATL,chondrocyte,in vitro differentiated cells
+ENCFF207FUA,H1,cell line
+ENCFF217ERK,H1,cell line
+ENCFF730QOA,H1,cell line
+ENCFF698UNA,psoas muscle,tissue
+ENCFF449MVA,upper lobe of right lung,tissue
+ENCFF623IBV,heart left ventricle,tissue
+ENCFF193WEX,psoas muscle,tissue
+ENCFF791WUV,adrenal gland,tissue
+ENCFF291EKY,right cardiac atrium,tissue
 ENCFF600UQU,endothelial cell of umbilical vein,primary cell
 ENCFF049QIP,endothelial cell of umbilical vein,primary cell
-ENCFF502LAB,heart left ventricle,tissue
+ENCFF239CWJ,kidney,tissue
 ENCFF745DHX,Panc1,cell line
+ENCFF502LAB,heart left ventricle,tissue
+ENCFF745HHL,aorta,tissue
+ENCFF971JDY,mesenteric fat pad,tissue
+ENCFF292UIE,H9,cell line
+ENCFF738RAA,H9,cell line
+ENCFF472TSL,posterior vena cava,tissue
 ENCFF509GHY,progenitor cell of endocrine pancreas,in vitro differentiated cells
 ENCFF803KIA,progenitor cell of endocrine pancreas,in vitro differentiated cells
+ENCFF911RNV,right cardiac atrium,tissue
+ENCFF583MSU,ovary,tissue
+ENCFF437SYY,heart left ventricle,tissue
+ENCFF810FRP,HL-60,cell line
+ENCFF600MGT,HL-60,cell line
 ENCFF779VVX,lower lobe of left lung,tissue
-ENCFF745HHL,aorta,tissue
+ENCFF305AFY,heart right ventricle,tissue
 ENCFF925MYC,osteocyte,in vitro differentiated cells
 ENCFF558QPF,osteocyte,in vitro differentiated cells
 ENCFF973OML,type B pancreatic cell,in vitro differentiated cells
 ENCFF058HQU,type B pancreatic cell,in vitro differentiated cells
-ENCFF305AFY,heart right ventricle,tissue
-ENCFF911RNV,right cardiac atrium,tissue
-ENCFF583MSU,ovary,tissue
-ENCFF472TSL,posterior vena cava,tissue
-ENCFF292UIE,H9,cell line
-ENCFF738RAA,H9,cell line
-ENCFF319JFG,neural crest cell,in vitro differentiated cells
-ENCFF901XCR,neural crest cell,in vitro differentiated cells
-ENCFF437SYY,heart left ventricle,tissue
-ENCFF810FRP,HL-60,cell line
-ENCFF600MGT,HL-60,cell line
-ENCFF971JDY,mesenteric fat pad,tissue
-ENCFF344KQF,left cardiac atrium,tissue
 ENCFF648NAR,GM12878,cell line
 ENCFF225CCJ,GM12878,cell line
 ENCFF936VUF,endodermal cell,in vitro differentiated cells
 ENCFF939EUU,endodermal cell,in vitro differentiated cells
+ENCFF344KQF,left cardiac atrium,tissue
+ENCFF319JFG,neural crest cell,in vitro differentiated cells
+ENCFF901XCR,neural crest cell,in vitro differentiated cells
